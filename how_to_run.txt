@@ -1,0 +1,13 @@
+Install OpenCV with Python bindings.
+
+Run images:
+
+python yolo.py --image images/baggage_claim.jpg --yolo yolo-coco
+
+Run video:
+
+python yolo_video.py --input videos/car.mp4 --output output/car.avi --yolo yolo-coco
+
+Run webcam:
+
+python webcam.py --yolo yolo-coco
